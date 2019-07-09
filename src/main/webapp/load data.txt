@@ -1,0 +1,24 @@
+insert into clothes (id, name, description, price, pic)
+values (1, "Chambray Shorts", "Gray Cotton linen Slub Chambray Shorts", 30.00, "pics/shorts1.jpg");
+insert into clothes (id, name, description, price, pic)
+values (2, "Lightweight Shorts", "Lightweight Indigo Twill Shorts", 30.00, "pics/shorts2.jpg");
+insert into clothes (id, name, description, price, pic)
+values (3, "French Terry Shorts", "Burgundy French Terry Sweat Shorts", 30.00, "pics/shorts3.jpg");
+insert into clothes (id, name, description, price, pic)
+values (4, "Polo", "Heather Lilac Pique Polo", 20.00, "pics/polo1.jpg");
+insert into clothes (id, name, description, price, pic)
+values (5, "Polo", "Heather Blue Pique Polo", 20.00, "pics/polo2.jpg");
+insert into clothes (id, name, description, price, pic)
+values (6, "Polo", "Heather Marled Gray Pique Polo", 20.00, "pics/polo3.jpg");
+insert into clothes (id, name, description, price, pic)
+values (7, "Dress Pants", "Heather Blue Italian Worsted Wool", 60.00, "pics/dresspants1.jpg");
+insert into clothes (id, name, description, price, pic)
+values (8, "Dress Pants", "Grey Windowpane Italian Worsted Wool", 60.00, "pics/dresspants2.jpg");
+insert into clothes (id, name, description, price, pic)
+values (9, "Dress Pants", "Italian Wool Flannel Dress Pants", 60.00, "pics/dresspants3.jpg");
+insert into clothes (id, name, description, price, pic)
+values (10, "Suit", "Blue Hopsack Italian Wool Suit", 220.00, "pics/suit1.jpg");
+insert into clothes (id, name, description, price, pic)
+values (11, "Suit", "Light Gray Italian Wool Suit", 220.00, "pics/suit2.jpg");
+insert into clothes (id, name, description, price, pic)
+values (12, "Suit", "Blue Patch Pocket Italian Wool Suit", 220.00, "pics/suit3.jpg");

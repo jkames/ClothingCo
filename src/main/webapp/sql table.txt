@@ -1,0 +1,25 @@
+create table clothes(
+	id INT(6) unsigned auto_increment primary key,
+	name varchar(30) not null,
+    description varchar(300) not null,
+    price float(10, 2) not null,
+    pic varchar(100) not null
+);
+create table customer(
+    ordernum int(20) primary key not null,
+	email varchar(255) not null,
+	fname varchar(30) not null,
+    lname varchar(30) not null,
+    size varchar(5) not null,
+    quantity varchar(2) not null,
+    price float(10,2) not null,
+    product varchar(10) not null
+);
+
+Create table cart(
+id INT(6) unsigned primary key,
+	name varchar(30) not null,
+    description varchar(300) not null,
+    price float(10, 2) not null,
+    quantity int(5)
+    );

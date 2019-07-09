@@ -1,0 +1,94 @@
+.mainHeader{
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+    color:black; 
+}
+.logo{
+    background:url(pics/homepic.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+    background-size:cover;
+    padding:40px;
+    margin-top: 30px;
+}
+.aboutUs{
+    font-family: 'Lato', sans-serif;
+    color:white;
+    margin-top: 50px;
+}
+.shop{
+    font-family: 'Lato', sans-serif;
+    margin-top:100px;
+    padding: 5px 40px;
+    color:white;
+    background-color:black;
+    border: 2px solid black;
+}
+.shop:hover{
+    background-color:grey;
+    border: 2px solid grey;
+}
+.space{
+    margin-top:150px;
+}
+.space2{
+    margin-top:50px;
+}
+.itemTitle{
+    font-family:'Lato', sans-serif;
+}
+.price{
+    margin-left: 130px;
+}
+.itemContainer:hover{
+    color: #d64161
+}
+.description{
+    color: gray;
+}
+.mainPic:hover{
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:800px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
+.table>tbody>tr>td, .table>tfoot>tr>td{
+    vertical-align: middle;
+}
+@media screen and (max-width: 600px) {
+    table#cart tbody td .form-control{
+        width:20%;
+        display: inline !important;
+    }
+    .actions .btn{
+        width:36%;
+        margin:1.5em 0;
+    }
+
+    .actions .btn-info{
+        float:left;
+    }
+    .actions .btn-danger{
+        float:right;
+    }
+
+    table#cart thead { display: none; }
+    table#cart tbody td { display: block; padding: .6rem; min-width:320px;}
+    table#cart tbody tr td:first-child { background: #333; color: #fff; }
+    table#cart tbody td:before {
+        content: attr(data-th); font-weight: bold;
+        display: inline-block; width: 8rem;
+    }
+
+
+
+    table#cart tfoot td{display:block; }
+    table#cart tfoot td .btn{display:block;}
+
+}
+
